@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Palov (osh)",
+    "description": "Guruch, go'sht va sabzidan tayyorlanadigan, O'zbekistonning ramzi hisoblangan milliy taom.",
+    "ingredientlar": ["Guruch", "Go'sht", "Sabzi", "Piyoz", "Yog'", "Zira"]
+  },
+  {
+    "id": 2,
+    "name": "Manti",
+    "description": "Yupqa xamir ichiga sersuv go'sht va piyoz solib, bug'da pishiriladigan taom.",
+    "ingredientlar": ["Un", "Go'sht", "Piyoz", "Dumba yog'i", "Tuz", "Murch"]
+  }
+]
