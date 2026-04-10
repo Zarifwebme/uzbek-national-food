@@ -1,3 +1,6 @@
+> [!WARNING]
+> **Muhim eslatma:** Ma'lumotlar sun'iy intellektdan olinganda ularni albatta tekshirib, tahrirlang. AI xato yoki eskirgan ma'lumot berishi mumkin.
+
 # 🤝 Loyihaga hissa qo‘shish (Contributing to Uzbek National Food Data)
 
 Salom! Loyihamizni boyitishga va **O‘zbek milliy taomlari haqida ochiq ma’lumotlar bazasini yaratishga** qiziqish bildirganingiz uchun rahmat.
