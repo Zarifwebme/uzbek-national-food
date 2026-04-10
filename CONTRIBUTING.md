@@ -34,7 +34,7 @@ GitHub orqali ushbu repozitoriyani o‘z accountingizga fork qiling.
 ### 2. Clone qiling
 
 ```bash
-git clone https://github.com/SizningUsername/uzbek-national-food.git
+git https://github.com/Zarifwebme/uzbek-national-food.git
 ```
 
 ### 3. Yangi branch oching
