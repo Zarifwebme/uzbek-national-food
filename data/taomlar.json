@@ -10,5 +10,11 @@
     "name": "Manti",
     "description": "Yupqa xamir ichiga sersuv go'sht va piyoz solib, bug'da pishiriladigan taom.",
     "ingredientlar": ["Un", "Go'sht", "Piyoz", "Dumba yog'i", "Tuz", "Murch"]
+  },
+  {
+    "id": 3,
+    "name": "Somsa",
+    "description": "Qatlama xamir ichiga sersuv go'sht, kartoshka, ismaloq, qovoq, piyoz ka'bi mahsulotlardan solib, tandirda pishiriladigan taom.",
+    "ingredientlar": ["Un", "Go'sht", "Kartoshka", "Ismaloq", "Qovoq", "Piyoz", "Dumba yog'i", "Tuz", "Murch"]
   }
 ]
