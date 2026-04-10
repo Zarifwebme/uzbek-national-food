@@ -25,7 +25,6 @@ Swagger docs: `http://localhost:8000/docs`
 
 | Method | Path | Description |
 |---|---|---|
-| GET | `/` | API info |
 | GET | `/regions` | List all regions |
 | GET | `/dishes` | List/filter dishes |
 | GET | `/dishes/search` | Full-text search |
@@ -72,10 +71,10 @@ GET /dishes/search?q=rice&lang=en
 
 # Single dish in Uzbek
 GET /dishes/1?lang=uz
-
-# All language variants of dish #1
-GET /dishes/1/all-languages
-
+ 
 # All tags in Russian
 GET /tags?lang=ru
+ 
+# All regionns in Russian
+GET /regions?lang=ru
 ```
