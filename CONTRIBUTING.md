@@ -64,12 +64,15 @@ Yangi ma’lumot qo‘shayotganda quyidagi formatga amal qiling:
 ```json
 {
   "id": 1,
-  "name": "Taom nomi",
-  "description": "Taom haqida qisqacha ma’lumot",
-  "ingredients": [
-    "masalliq 1",
-    "masalliq 2"
-  ]
+  "name": "Palov (Osh)",
+  "category": "Asosiy taom",
+  "description": "Guruch, go'sht va sabzi bilan tayyorlangan taom — O'zbekistonning milliy ramzi.",
+  "ingredients": ["Guruch", "Go'sht", "Sabzi", "Piyoz", "Yog'", "Zira", "Tuz"],
+  "preparation_time_min": 90,
+  "calories_per_100g": 210,
+  "tags": ["guruchli", "go'shtli", "bayram taomi", "an'anaviy"],
+  "region_ids": [0],
+  "region_names": ["Barcha viloyatlarda"]
 }
 ```
 
