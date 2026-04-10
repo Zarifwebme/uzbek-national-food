@@ -1,39 +1,30 @@
-# 🍽️ Uzbek National Dishes — Open JSON Database
+# 🍽️ O'zbek Taomlari JSON Ma'lumotlar Bazasi
 
-> A structured, open-source database of Uzbekistan's national dishes, ready for developers, researchers, and food app builders.
-
----
-
-## 📖 About
-
-This project was created to digitize Uzbek culinary heritage and provide a ready-to-use data source for developers. The database covers dishes from all regions of Uzbekistan with consistent, structured fields.
-
-Currently includes **80+ national dishes** across all major categories.
+O'zbek milliy taomlari to'plami — strukturaviy JSON formatda.
 
 ---
 
-## 📁 File Structure
+## 📁 Fayl tuzilmasi
 
 ```
-uzbek-food-db/
-│
-├── uzbek_taomlari.json   # Main dish database
-├── viloyatlar.json        # Uzbekistan regions reference
+uzbek_taomlari/
+├── taomlar.json   # Asosiy taomlar ma'lumotlar bazasi
+├── viloyatlar.json       # Viloyatlar ro'yxati
 └── README.md
 ```
 
 ---
 
-## 🗂️ Data Structure
+## 📦 Ma'lumot formati
 
-Each dish entry contains the following fields:
+### Taom (`taomlari.json`)
 
 ```json
 {
   "id": 1,
   "name": "Palov (Osh)",
   "category": "Asosiy taom",
-  "description": "Rice dish with meat and carrots, the national symbol of Uzbekistan.",
+  "description": "Guruch, go'sht va sabzi bilan tayyorlangan taom — O'zbekistonning milliy ramzi.",
   "ingredients": ["Guruch", "Go'sht", "Sabzi", "Piyoz", "Yog'", "Zira", "Tuz"],
   "preparation_time_min": 90,
   "calories_per_100g": 210,
@@ -43,24 +34,22 @@ Each dish entry contains the following fields:
 }
 ```
 
-| Field | Type | Description |
-|---|---|---|
-| `id` | `number` | Unique identifier |
-| `name` | `string` | Dish name (Uzbek) |
-| `category` | `string` | Dish category |
-| `description` | `string` | Short description |
-| `ingredients` | `string[]` | List of ingredients |
-| `preparation_time_min` | `number` | Preparation time in minutes |
-| `calories_per_100g` | `number` | Calories per 100g |
-| `tags` | `string[]` | Search tags |
-| `region_ids` | `number[]` | Region IDs from `viloyatlar.json` (`[0]` = all regions) |
-| `region_names` | `string[]` | Region names in Uzbek |
+| Maydon | Tur | Tavsif |
+|--------|-----|--------|
+| `id` | `number` | Unikal identifikator |
+| `name` | `string` | Taom nomi (o'zbekcha) |
+| `category` | `string` | Taom kategoriyasi |
+| `description` | `string` | Qisqa tavsif |
+| `ingredients` | `string[]` | Ingredientlar ro'yxati |
+| `preparation_time_min` | `number` | Tayyorlash vaqti (daqiqada) |
+| `calories_per_100g` | `number` | 100 grammdagi kaloriya |
+| `tags` | `string[]` | Qidiruv teglari |
+| `region_ids` | `number[]` | Viloyat IDlari (`[0]` = barcha viloyatlar) |
+| `region_names` | `string[]` | Viloyat nomlari (o'zbekcha) |
 
 ---
 
-## 🌍 Regions
-
-Regions are stored in `viloyatlar.json` and linked via `region_ids`. Each region entry includes multilingual names:
+### Viloyat (`viloyatlar.json`)
 
 ```json
 {
@@ -73,44 +62,42 @@ Regions are stored in `viloyatlar.json` and linked via `region_ids`. Each region
 }
 ```
 
-> Dishes available nationwide use `"region_ids": [0]` and `"region_names": ["Barcha viloyatlarda"]`.
+---
+
+## 🗃️ Kategoriyalar
+
+| Kategoriya | Taomlar soni |
+|------------|--------------|
+| Asosiy taom | 20+ |
+| Kabob | 10+ |
+| Sho'rva | 12+ |
+| Non / Xamirli taom | 12+ |
+| Shirinlik | 6+ |
+| Ichimlik | 5+ |
+| Sut mahsuloti | 3+ |
+| Marosim taomi | 2+ |
 
 ---
 
-## 🗃️ Categories
-
-| Category | Count |
-|---|---|
-| Asosiy taom (Main dish) | 20+ |
-| Kabob (Kebab) | 10+ |
-| Sho'rva (Soup) | 12+ |
-| Non / Xamirli taom (Bread / Pastry) | 12+ |
-| Shirinlik (Dessert) | 6+ |
-| Ichimlik (Drink) | 5+ |
-| Sut mahsuloti (Dairy) | 3+ |
-| Marosim taomi (Ceremonial) | 2+ |
-
----
-
-## 🚀 Usage
+## 🚀 Foydalanish
 
 ### JavaScript / Node.js
 
 ```javascript
 const fs = require('fs');
-const dishes = JSON.parse(fs.readFileSync('uzbek_taomlari.json', 'utf-8'));
+const taomlari = JSON.parse(fs.readFileSync('taomlar.json', 'utf-8'));
 
-// Filter by category
-const soups = dishes.filter(d => d.category === "Sho'rva");
+// Kategoriya bo'yicha filtrlash
+const sho'rvalar = taomlari.filter(t => t.category === "Sho'rva");
 
-// Search by ingredient
-const riceDishes = dishes.filter(d => d.ingredients.includes('Guruch'));
+// Ingredient bo'yicha qidirish
+const guruchlilar = taomlari.filter(t => t.ingredients.includes('Guruch'));
 
-// Quick meals (under 30 min)
-const quick = dishes.filter(d => d.preparation_time_min <= 30);
+// Tez tayyorlanadigan taomlar (30 daqiqagacha)
+const tezkor = taomlari.filter(t => t.preparation_time_min <= 30);
 
-// Dishes from Samarkand (region id: 8)
-const samarkand = dishes.filter(d => d.region_ids.includes(8));
+// Samarqand taomlari (viloyat id: 8)
+const samarqand = taomlari.filter(t => t.region_ids.includes(8));
 ```
 
 ### Python
@@ -118,55 +105,21 @@ const samarkand = dishes.filter(d => d.region_ids.includes(8));
 ```python
 import json
 
-with open('uzbek_taomlari.json', 'r', encoding='utf-8') as f:
-    dishes = json.load(f)
+with open('taomlar.json', 'r', encoding='utf-8') as f:
+    taomlari = json.load(f)
 
-# Nationwide dishes
-nationwide = [d for d in dishes if d['region_ids'] == [0]]
+# Respublikaviy taomlar (barcha viloyatlarda)
+respublika = [t for t in taomlari if t['region_ids'] == [0]]
 
-# Lowest calorie dishes
-lightest = sorted(dishes, key=lambda x: x['calories_per_100g'])[:5]
+# Eng kam kaloriyali 5 ta taom
+engoz = sorted(taomlari, key=lambda x: x['calories_per_100g'])[:5]
 
-# Dishes by tag
-festive = [d for d in dishes if 'bayram taomi' in d['tags']]
-```
-
-### Fetch (Browser)
-
-```javascript
-const res = await fetch('uzbek_taomlari.json');
-const dishes = await res.json();
-
-const kebabs = dishes.filter(d => d.category === 'Kabob');
+# Teg bo'yicha filtrlash
+bayram = [t for t in taomlari if 'bayram taomi' in t['tags']]
 ```
 
 ---
 
-## 🤝 Contributing
+## 📄 Litsenziya
 
-Want to add a dish or improve existing data?
-
-1. **Fork** the repository
-2. Create a branch: `git checkout -b feat/new-dish`
-3. Edit `uzbek_taomlari.json` following the schema above
-4. Open a **Pull Request**
-
-### Data quality guidelines
-
-- All required fields must be filled
-- `id` must be unique
-- `ingredients` should be written in Uzbek
-- `calories_per_100g` should be provided even if approximate
-- `region_ids` must reference valid IDs from `viloyatlar.json` (or `[0]` for nationwide)
-
----
-
-## 📜 License
-
-This project is distributed under the **MIT License** — free to use for personal and commercial purposes.
-
----
-
-## ⭐ Support
-
-If this project is useful to you, please give it a ⭐ on GitHub — it helps the project grow!
+MIT License — bepul foydalanish, tarqatish va o'zgartirish mumkin.
