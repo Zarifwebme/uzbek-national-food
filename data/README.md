@@ -69,16 +69,16 @@ uzbek_taomlari/
 
 ## 🗃️ Kategoriyalar
 
-| Kategoriya | Taomlar soni |
-|------------|--------------|
-| Asosiy taom | 20+ |
+| Kategoriya |
+|------------|
+| Asosiy taom |
 | Kabob | 10+ |
-| Sho'rva | 12+ |
-| Non / Xamirli taom | 12+ |
-| Shirinlik | 6+ |
-| Ichimlik | 5+ |
-| Sut mahsuloti | 3+ |
-| Marosim taomi | 2+ |
+| Sho'rva |
+| Non / Xamirli taom |
+| Shirinlik |
+| Ichimlik |
+| Sut mahsuloti |
+| Marosim taomi |
 
 ---
 
