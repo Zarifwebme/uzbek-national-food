@@ -1,20 +1,2363 @@
 [
   {
     "id": 1,
-    "name": "Palov (osh)",
-    "description": "Guruch, go'sht va sabzidan tayyorlanadigan, O'zbekistonning ramzi hisoblangan milliy taom.",
-    "ingredientlar": ["Guruch", "Go'sht", "Sabzi", "Piyoz", "Yog'", "Zira"]
+    "name": "Palov (Osh)",
+    "category": "Asosiy taom",
+    "description": "Guruch, go'sht va sabzidan tayyorlanadigan, O'zbekistonning ramzi hisoblangan milliy taom. Har bir viloyatda o'ziga xos pishirish uslubi mavjud.",
+    "ingredients": [
+      "Guruch",
+      "Mol go'shti yoki qo'y go'shti",
+      "Sabzi",
+      "Piyoz",
+      "O'simlik yog'i yoki dumba yog'i",
+      "Zira",
+      "Tuz",
+      "Murch",
+      "Sarımsaq (ixtiyoriy)",
+      "Nohot (ixtiyoriy)"
+    ],
+    "preparation_time_min": 90,
+    "calories_per_100g": 210,
+    "tags": [
+      "guruchli",
+      "go'shtli",
+      "bayram taomi",
+      "an'anaviy"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
   },
   {
     "id": 2,
     "name": "Manti",
-    "description": "Yupqa xamir ichiga sersuv go'sht va piyoz solib, bug'da pishiriladigan taom.",
-    "ingredientlar": ["Un", "Go'sht", "Piyoz", "Dumba yog'i", "Tuz", "Murch"]
+    "category": "Xamirli taom",
+    "description": "Yupqa xamir ichiga sersuv go'sht va piyoz solib, bug'da pishiriladigan taom. Odatda qatiq yoki smetana bilan beriladi.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Mol go'shti yoki qo'y go'shti",
+      "Piyoz",
+      "Dumba yog'i",
+      "Tuz",
+      "Qora murch",
+      "Zira",
+      "Suv"
+    ],
+    "preparation_time_min": 60,
+    "calories_per_100g": 185,
+    "tags": [
+      "bug'da pishirilgan",
+      "go'shtli",
+      "xamirli"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
   },
   {
     "id": 3,
     "name": "Somsa",
-    "description": "Qatlama xamir ichiga sersuv go'sht, kartoshka, ismaloq, qovoq, piyoz ka'bi mahsulotlardan solib, tandirda pishiriladigan taom.",
-    "ingredientlar": ["Un", "Go'sht", "Kartoshka", "Ismaloq", "Qovoq", "Piyoz", "Dumba yog'i", "Tuz", "Murch"]
+    "category": "Non-xamir mahsuloti",
+    "description": "Qatlama xamir ichiga sersuv go'sht, kartoshka, ismaloq, qovoq, piyoz kabi mahsulotlardan solib, tandirda pishiriladigan taom.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Go'sht",
+      "Kartoshka",
+      "Ismaloq",
+      "Qovoq",
+      "Piyoz",
+      "Dumba yog'i",
+      "Tuz",
+      "Murch",
+      "Suv",
+      "Tuxum (moylash uchun)"
+    ],
+    "preparation_time_min": 75,
+    "calories_per_100g": 270,
+    "tags": [
+      "tandir",
+      "go'shtli",
+      "non mahsuloti",
+      "ko'cha taomi"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Lag'mon",
+    "category": "Sho'rva",
+    "description": "Qo'lda cho'zilgan uzun noodles asosidagi sho'rva. Sabzavot va go'sht bilan boy sous bilan tayyorlanadi. Uyg'ur pazandachiligidan o'zlashtirilgan.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Mol go'shti",
+      "Sabzi",
+      "Qo'ng'ir piyoz",
+      "Bolgar qalampiri",
+      "Pomidor",
+      "Tarvuzqovoq",
+      "Sarimsoq",
+      "O'simlik yog'i",
+      "Tuz",
+      "Zira",
+      "Qorachoy murch"
+    ],
+    "preparation_time_min": 100,
+    "calories_per_100g": 155,
+    "tags": [
+      "noodles",
+      "sho'rva",
+      "sabzavotli",
+      "go'shtli"
+    ],
+    "region_ids": [
+      12,
+      13
+    ],
+    "region_names": [
+      "Toshkent viloyati",
+      "Farg'ona viloyati"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Shurva",
+    "category": "Sho'rva",
+    "description": "Qo'y go'shti va sabzavotlardan tayyorlanadigan to'yimli sho'rva. Ko'pincha erta tong nonushtasida yeyiladi.",
+    "ingredients": [
+      "Qo'y go'shti (suyakli)",
+      "Kartoshka",
+      "Sabzi",
+      "Piyoz",
+      "Pomidor",
+      "Bolgar qalampiri",
+      "Tuz",
+      "Qora murch",
+      "Ko'k piyoz",
+      "Koriander"
+    ],
+    "preparation_time_min": 120,
+    "calories_per_100g": 85,
+    "tags": [
+      "sho'rva",
+      "go'shtli",
+      "sabzavotli",
+      "issiq taom"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Dimlama",
+    "category": "Asosiy taom",
+    "description": "Go'sht va sabzavotlarni qatlamlash orqali past olovda buglantirilib tayyorlanadigan taom. Barcha ingredientlar o'z shirasi bilan dimlanadi.",
+    "ingredients": [
+      "Mol yoki qo'y go'shti",
+      "Kartoshka",
+      "Sabzi",
+      "Piyoz",
+      "Karam",
+      "Bolgar qalampiri",
+      "Pomidor",
+      "Bodring",
+      "O'simlik yog'i",
+      "Tuz",
+      "Zira",
+      "Qora murch",
+      "Koriander"
+    ],
+    "preparation_time_min": 90,
+    "calories_per_100g": 120,
+    "tags": [
+      "dumlanadi",
+      "go'shtli",
+      "sabzavotli"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Qozon Kabob",
+    "category": "Kabob",
+    "description": "Qozonda piyoz ustida qovuriladigan go'sht kabob. Shirin piyoz bilan birga beriladi.",
+    "ingredients": [
+      "Qo'y go'shti",
+      "Piyoz",
+      "O'simlik yog'i",
+      "Tuz",
+      "Qora murch",
+      "Zira",
+      "Sarimsoq"
+    ],
+    "preparation_time_min": 50,
+    "calories_per_100g": 225,
+    "tags": [
+      "kabob",
+      "go'shtli",
+      "qovurilgan"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Shashlik",
+    "category": "Kabob",
+    "description": "Ko'mirda yoki olovda pishiriladigan shishga tizilgan go'sht kabob. O'zbekistonning eng mashhur ko'cha taomlari qatoriga kiradi.",
+    "ingredients": [
+      "Qo'y go'shti yoki mol go'shti",
+      "Piyoz",
+      "Qora murch",
+      "Tuz",
+      "Sirka yoki limon",
+      "Zira",
+      "Ko'k piyoz (berishda)"
+    ],
+    "preparation_time_min": 40,
+    "calories_per_100g": 240,
+    "tags": [
+      "kabob",
+      "ko'mirda pishirilgan",
+      "go'shtli",
+      "ko'cha taomi"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Tandir Kabob",
+    "category": "Kabob",
+    "description": "Tandirning ichki devorlariga yopishtirib pishiriladigan kabob. O'ziga xos tutun ta'mi bor.",
+    "ingredients": [
+      "Qo'y go'shti (suyakli)",
+      "Tuz",
+      "Qora murch",
+      "Zira",
+      "Koriander urug'i"
+    ],
+    "preparation_time_min": 45,
+    "calories_per_100g": 230,
+    "tags": [
+      "tandir",
+      "kabob",
+      "go'shtli"
+    ],
+    "region_ids": [
+      3,
+      8
+    ],
+    "region_names": [
+      "Buxoro viloyati",
+      "Samarqand viloyati"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Halim",
+    "category": "Asosiy taom",
+    "description": "Bug'doy va go'shtni uzoq muddat dimlab tayyorlanadigan quyuq, to'yimli taom. Qish oylarida juda mashhur.",
+    "ingredients": [
+      "Qo'y go'shti",
+      "Bug'doy",
+      "Piyoz",
+      "Tuz",
+      "Qora murch",
+      "Zira",
+      "Dolchín",
+      "Murch"
+    ],
+    "preparation_time_min": 180,
+    "calories_per_100g": 175,
+    "tags": [
+      "quyuq",
+      "bug'doydan",
+      "go'shtli",
+      "qish taomi"
+    ],
+    "region_ids": [
+      8,
+      12
+    ],
+    "region_names": [
+      "Samarqand viloyati",
+      "Toshkent viloyati"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Mastava",
+    "category": "Sho'rva",
+    "description": "Guruch asosidagi quyuq sho'rva. Shurva va palovning o'rtasidagi taom deyish mumkin.",
+    "ingredients": [
+      "Guruch",
+      "Qo'y go'shti",
+      "Kartoshka",
+      "Sabzi",
+      "Piyoz",
+      "Pomidor",
+      "O'simlik yog'i",
+      "Tuz",
+      "Zira",
+      "Koriander",
+      "Ko'k piyoz"
+    ],
+    "preparation_time_min": 70,
+    "calories_per_100g": 95,
+    "tags": [
+      "sho'rva",
+      "guruchli",
+      "go'shtli"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Mosxo'rda",
+    "category": "Sho'rva",
+    "description": "Mosh donasi asosidagi sho'rva. Tez hazm bo'lishi va foydali xususiyatlari bilan mashhur.",
+    "ingredients": [
+      "Mosh",
+      "Guruch",
+      "Qo'y go'shti",
+      "Piyoz",
+      "Sabzi",
+      "O'simlik yog'i",
+      "Tuz",
+      "Kurkuma",
+      "Zira",
+      "Koriander"
+    ],
+    "preparation_time_min": 80,
+    "calories_per_100g": 110,
+    "tags": [
+      "sho'rva",
+      "moshdan",
+      "go'shtli",
+      "foydali"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Norin",
+    "category": "Asosiy taom",
+    "description": "Qo'lda yoki mashinada tayyorlangan yupqa noodles ustiga qaynatilgan qo'y go'shti va piyoz solingan taom.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Tuxum",
+      "Qaynatilgan qo'y go'shti",
+      "Piyoz (qovurilgan)",
+      "Go'sht sho'rvasi",
+      "Tuz",
+      "Qora murch"
+    ],
+    "preparation_time_min": 90,
+    "calories_per_100g": 195,
+    "tags": [
+      "noodles",
+      "go'shtli",
+      "bayram taomi"
+    ],
+    "region_ids": [
+      12,
+      13
+    ],
+    "region_names": [
+      "Toshkent viloyati",
+      "Farg'ona viloyati"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Chuchvara",
+    "category": "Xamirli taom",
+    "description": "Kichkina o'lchamli go'shtli xamir bo'laklari. Sho'rvada yoki qovurilgan holda beriladi.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Mol go'shti yoki qo'y go'shti",
+      "Piyoz",
+      "Tuz",
+      "Qora murch",
+      "Suv",
+      "Tuxum"
+    ],
+    "preparation_time_min": 60,
+    "calories_per_100g": 170,
+    "tags": [
+      "xamirli",
+      "go'shtli",
+      "sho'rvali"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Qovoq Somsa",
+    "category": "Non-xamir mahsuloti",
+    "description": "Ichiga qovoq va piyoz solingan somsa. Vegetarian variant sifatida mashhur.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Qovoq",
+      "Piyoz",
+      "O'simlik yog'i",
+      "Tuz",
+      "Qora murch",
+      "Zira",
+      "Suv",
+      "Tuxum (moylash uchun)"
+    ],
+    "preparation_time_min": 70,
+    "calories_per_100g": 195,
+    "tags": [
+      "tandir",
+      "sabzavotli",
+      "vegetarian",
+      "non mahsuloti"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Katlama",
+    "category": "Non-xamir mahsuloti",
+    "description": "Ko'p qavatli yog'li non. Yog' yoki qiyma bilan pishiriladi. Nonushtaga juda mos keladi.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Suv",
+      "Tuz",
+      "O'simlik yog'i yoki sariyog'"
+    ],
+    "preparation_time_min": 40,
+    "calories_per_100g": 310,
+    "tags": [
+      "non",
+      "yog'li",
+      "nonushta"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Tandir Non",
+    "category": "Non",
+    "description": "Tandirda pishiriladigan dumaloq shakldagi an'anaviy o'zbek noni. Ustiga kunjut yoki qorachoy sepiladi.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Xamirturush",
+      "Suv",
+      "Tuz",
+      "O'simlik yog'i",
+      "Kunjut yoki qorachoy (ustiga)"
+    ],
+    "preparation_time_min": 120,
+    "calories_per_100g": 265,
+    "tags": [
+      "non",
+      "tandir",
+      "an'anaviy"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Nishallo",
+    "category": "Shirinlik",
+    "description": "Tuxum oqi, shakar va limon sharbatidan tayyorlanadigan oq, ko'pikli shirinlik. Ko'pincha samsa bilan birga beriladi.",
+    "ingredients": [
+      "Tuxum oqi",
+      "Shakar",
+      "Limon sharbati",
+      "Mum (ixtiyoriy)"
+    ],
+    "preparation_time_min": 30,
+    "calories_per_100g": 285,
+    "tags": [
+      "shirinlik",
+      "ko'pikli",
+      "bayramona"
+    ],
+    "region_ids": [
+      8,
+      12
+    ],
+    "region_names": [
+      "Samarqand viloyati",
+      "Toshkent viloyati"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Halva",
+    "category": "Shirinlik",
+    "description": "Un, yog' va shakardan tayyorlanadigan quyuq an'anaviy shirinlik. Ko'p turlari mavjud.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Sariyog' yoki o'simlik yog'i",
+      "Shakar",
+      "Suv",
+      "Vanillin (ixtiyoriy)"
+    ],
+    "preparation_time_min": 40,
+    "calories_per_100g": 450,
+    "tags": [
+      "shirinlik",
+      "an'anaviy",
+      "to'y taomi"
+    ],
+    "region_ids": [
+      3,
+      8
+    ],
+    "region_names": [
+      "Buxoro viloyati",
+      "Samarqand viloyati"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Chak-Chak",
+    "category": "Shirinlik",
+    "description": "Qovurilgan xamir bo'lakchalarini asal yoki shakar siropi bilan yopishtirib tayyorlanadigan shirinlik.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Tuxum",
+      "Shakar",
+      "Asal",
+      "O'simlik yog'i (qovurish uchun)",
+      "Tuz"
+    ],
+    "preparation_time_min": 45,
+    "calories_per_100g": 380,
+    "tags": [
+      "shirinlik",
+      "qovurilgan",
+      "asalli",
+      "bayramona"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Qovoqli Palov",
+    "category": "Asosiy taom",
+    "description": "Oddiy palovdan farqli ravishda qovoq qo'shilgan palov. Qishda tayyorlanadigan maxsus variant.",
+    "ingredients": [
+      "Guruch",
+      "Qo'y go'shti",
+      "Qovoq",
+      "Sabzi",
+      "Piyoz",
+      "O'simlik yog'i",
+      "Zira",
+      "Tuz"
+    ],
+    "preparation_time_min": 90,
+    "calories_per_100g": 195,
+    "tags": [
+      "guruchli",
+      "go'shtli",
+      "qovoqli",
+      "qish taomi"
+    ],
+    "region_ids": [
+      2,
+      13
+    ],
+    "region_names": [
+      "Andijon viloyati",
+      "Farg'ona viloyati"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Kovatok",
+    "category": "Asosiy taom",
+    "description": "Yosh bodring yoki qovoq ichini o'yib, go'sht bilan to'ldirib pishiriladigan taom.",
+    "ingredients": [
+      "Yosh qovoq yoki bodring",
+      "Mol go'shti",
+      "Piyoz",
+      "Guruch",
+      "Tuz",
+      "Qora murch",
+      "Zira",
+      "Pomidor"
+    ],
+    "preparation_time_min": 70,
+    "calories_per_100g": 140,
+    "tags": [
+      "to'ldirilgan",
+      "go'shtli",
+      "sabzavotli"
+    ],
+    "region_ids": [
+      12,
+      13
+    ],
+    "region_names": [
+      "Toshkent viloyati",
+      "Farg'ona viloyati"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Beshbarmaq",
+    "category": "Asosiy taom",
+    "description": "Keng noodles ustiga qo'y go'shti va piyoz solingan taom. Qo'shni xalqlardan o'tgan, ammo O'zbekistonda ham mashhur.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Qo'y go'shti (suyakli)",
+      "Piyoz",
+      "Tuz",
+      "Qora murch",
+      "Tuxum"
+    ],
+    "preparation_time_min": 100,
+    "calories_per_100g": 210,
+    "tags": [
+      "noodles",
+      "go'shtli",
+      "qoraqalpog'iston"
+    ],
+    "region_ids": [
+      15
+    ],
+    "region_names": [
+      "Qoraqalpog'iston Respublikasi"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "G'iychali Osh",
+    "category": "Asosiy taom",
+    "description": "O'ziga xos Buxoro uslubida pishiriladigan palov. Qishmish, o'rik qurutig'i va nohot bilan boyitilgan.",
+    "ingredients": [
+      "Guruch",
+      "Qo'y go'shti",
+      "Sabzi",
+      "Piyoz",
+      "Qishmish",
+      "O'rik qurutig'i",
+      "Nohot",
+      "O'simlik yog'i",
+      "Zira",
+      "Tuz"
+    ],
+    "preparation_time_min": 100,
+    "calories_per_100g": 220,
+    "tags": [
+      "guruchli",
+      "mevali",
+      "buxoro",
+      "bayram taomi"
+    ],
+    "region_ids": [
+      3,
+      8
+    ],
+    "region_names": [
+      "Buxoro viloyati",
+      "Samarqand viloyati"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Qurt",
+    "category": "Sut mahsuloti",
+    "description": "Qatiqdan tayyorlangan quritilgan sharsimon sut mahsuloti. Sayohat va yig'im paytida oziq sifatida ishlatiladi.",
+    "ingredients": [
+      "Qatiq",
+      "Tuz"
+    ],
+    "preparation_time_min": 2880,
+    "calories_per_100g": 260,
+    "tags": [
+      "sut mahsuloti",
+      "quritilgan",
+      "an'anaviy"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Sumalak",
+    "category": "Marosim taomi",
+    "description": "Unib chiqqan bug'doy donasidan tayyorlanadigan maxsus Navro'z taomi. Butun kecha davomida aralashtirib pishiriladi.",
+    "ingredients": [
+      "Unib chiqqan bug'doy",
+      "Bug'doy uni",
+      "O'simlik yog'i",
+      "Suv",
+      "Tosh (qozonga solinadi, yonmasligi uchun)"
+    ],
+    "preparation_time_min": 720,
+    "calories_per_100g": 130,
+    "tags": [
+      "navro'z",
+      "marosim",
+      "an'anaviy",
+      "jamoaviy"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Moshkichiri",
+    "category": "Sho'rva",
+    "description": "Mosh va guruchdan tayyorlanadigan quyuq sho'rva. Qo'y quyrug'i yog'i bilan xushbo'y qilinadi.",
+    "ingredients": [
+      "Mosh",
+      "Guruch",
+      "Qo'y dumba yog'i",
+      "Piyoz",
+      "Sabzi",
+      "Tuz",
+      "Zira",
+      "Qora murch",
+      "Sarimsoq"
+    ],
+    "preparation_time_min": 75,
+    "calories_per_100g": 130,
+    "tags": [
+      "sho'rva",
+      "moshdan",
+      "foydali"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Qovurma Lag'mon",
+    "category": "Asosiy taom",
+    "description": "Qovurilgan go'sht va sabzavot sousi bilan berilgan lag'mon noodlesi. Sho'rva lag'mondan farqli o'laroq quyuqroq.",
+    "ingredients": [
+      "Lag'mon noodlesi",
+      "Mol go'shti",
+      "Karam",
+      "Bolgar qalampiri",
+      "Sabzi",
+      "Piyoz",
+      "Pomidor",
+      "Sarimsoq",
+      "O'simlik yog'i",
+      "Tuz",
+      "Zira"
+    ],
+    "preparation_time_min": 60,
+    "calories_per_100g": 175,
+    "tags": [
+      "noodles",
+      "qovurilgan",
+      "go'shtli",
+      "sabzavotli"
+    ],
+    "region_ids": [
+      12,
+      13
+    ],
+    "region_names": [
+      "Toshkent viloyati",
+      "Farg'ona viloyati"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Juftlik Kabob",
+    "category": "Kabob",
+    "description": "Ikki xil go'shtni bir shishga tizib pishiriladigan kabob turi. Mol va qo'y go'shti aralashtiriladi.",
+    "ingredients": [
+      "Mol go'shti",
+      "Qo'y go'shti",
+      "Piyoz",
+      "Tuz",
+      "Qora murch",
+      "Zira",
+      "Sarimsoq"
+    ],
+    "preparation_time_min": 35,
+    "calories_per_100g": 235,
+    "tags": [
+      "kabob",
+      "ko'mirda pishirilgan",
+      "samarqand"
+    ],
+    "region_ids": [
+      8
+    ],
+    "region_names": [
+      "Samarqand viloyati"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Yog'li Non",
+    "category": "Non",
+    "description": "Yog'da qovurilgan yupqa non. Nonushta uchun eng sevimli taom.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Suv",
+      "Tuz",
+      "O'simlik yog'i yoki sariyog'",
+      "Xamirturush"
+    ],
+    "preparation_time_min": 50,
+    "calories_per_100g": 325,
+    "tags": [
+      "non",
+      "qovurilgan",
+      "nonushta"
+    ],
+    "region_ids": [
+      13
+    ],
+    "region_names": [
+      "Farg'ona viloyati"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Tovuq Palov",
+    "category": "Asosiy taom",
+    "description": "Tovuq go'shti bilan tayyorlangan palov varianti. Qo'y go'shtiga qaraganda engil va oson hazm bo'ladi.",
+    "ingredients": [
+      "Guruch",
+      "Tovuq",
+      "Sabzi",
+      "Piyoz",
+      "O'simlik yog'i",
+      "Zira",
+      "Tuz",
+      "Sarımsaq",
+      "Qora murch"
+    ],
+    "preparation_time_min": 75,
+    "calories_per_100g": 185,
+    "tags": [
+      "guruchli",
+      "tovuq",
+      "engil"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Ichak Kabob",
+    "category": "Kabob",
+    "description": "Qo'y ichagini tozalab, ichiga yog' o'rab shishga tizib, ko'mirda pishiriladigan o'ziga xos kabob.",
+    "ingredients": [
+      "Qo'y ichagi",
+      "Qo'y yog'i",
+      "Tuz",
+      "Zira",
+      "Qora murch"
+    ],
+    "preparation_time_min": 40,
+    "calories_per_100g": 280,
+    "tags": [
+      "kabob",
+      "ko'mirda pishirilgan",
+      "an'anaviy"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Qozon Samsa",
+    "category": "Non-xamir mahsuloti",
+    "description": "Qozonda yog'da qovurib pishiriladigan samsa. Tandir somsadan farqli o'laroq qizarib chiqadi.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Mol go'shti",
+      "Piyoz",
+      "Yog'",
+      "Tuz",
+      "Qora murch",
+      "Suv"
+    ],
+    "preparation_time_min": 55,
+    "calories_per_100g": 295,
+    "tags": [
+      "qovurilgan",
+      "go'shtli",
+      "non mahsuloti"
+    ],
+    "region_ids": [
+      12
+    ],
+    "region_names": [
+      "Toshkent viloyati"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Ko'k Somsa",
+    "category": "Non-xamir mahsuloti",
+    "description": "Ichiga ko'kat (ismaloq, kichiri, rayhon) solingan somsa. Bahor mavsumida mashhur.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Ismaloq",
+      "Kichiri",
+      "Piyoz",
+      "Tuxum",
+      "Tuz",
+      "O'simlik yog'i",
+      "Qorachoy"
+    ],
+    "preparation_time_min": 65,
+    "calories_per_100g": 175,
+    "tags": [
+      "ko'katli",
+      "vegetarian",
+      "bahor taomi"
+    ],
+    "region_ids": [
+      5,
+      5723
+    ],
+    "region_names": [
+      "Qashqadaryo viloyati",
+      "Surxondaryo viloyati"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Tuxum Dulma",
+    "category": "Asosiy taom",
+    "description": "Karam yoki uzum bargiga go'sht va guruch solib o'rab, dimlab pishiriladigan taom.",
+    "ingredients": [
+      "Karam yoki uzum bargi",
+      "Mol go'shti",
+      "Guruch",
+      "Piyoz",
+      "Pomidor",
+      "Tuz",
+      "Qora murch",
+      "Zira"
+    ],
+    "preparation_time_min": 80,
+    "calories_per_100g": 155,
+    "tags": [
+      "to'ldirilgan",
+      "go'shtli",
+      "bargda"
+    ],
+    "region_ids": [
+      2,
+      12
+    ],
+    "region_names": [
+      "Andijon viloyati",
+      "Toshkent viloyati"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Qaynatma",
+    "category": "Sho'rva",
+    "description": "Sabzavot va go'shtni oddiy qaynatib tayyorlanadigan engil sho'rva. Kasalxonada yoki parhez uchun mos.",
+    "ingredients": [
+      "Mol go'shti",
+      "Kartoshka",
+      "Sabzi",
+      "Piyoz",
+      "Tuz",
+      "Ko'k piyoz",
+      "Koriander"
+    ],
+    "preparation_time_min": 70,
+    "calories_per_100g": 70,
+    "tags": [
+      "sho'rva",
+      "engil",
+      "parhez"
+    ],
+    "region_ids": [
+      14,
+      15
+    ],
+    "region_names": [
+      "Xorazm viloyati",
+      "Qoraqalpog'iston Respublikasi"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Choy (Ko'k choy)",
+    "category": "Ichimlik",
+    "description": "O'zbekistonda mehmonnavozlikning ramzi. Ko'k choy (yashil choy) eng ko'p ichiladi. Choyxonalarda suhbat asosi.",
+    "ingredients": [
+      "Ko'k choy bargi",
+      "Issiq suv"
+    ],
+    "preparation_time_min": 5,
+    "calories_per_100g": 1,
+    "tags": [
+      "ichimlik",
+      "an'anaviy",
+      "mehmonnavozlik"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Ayron",
+    "category": "Ichimlik",
+    "description": "Qatiq yoki suvlangan qatiqdan tayyorlangan salkam ichimlik. Yoz issig'ida juda foydali.",
+    "ingredients": [
+      "Qatiq",
+      "Sovuq suv",
+      "Tuz (ixtiyoriy)",
+      "Yalpiz (ixtiyoriy)"
+    ],
+    "preparation_time_min": 5,
+    "calories_per_100g": 45,
+    "tags": [
+      "ichimlik",
+      "sut mahsuloti",
+      "salkam",
+      "yozgi"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Pishloq (Tvorog)",
+    "category": "Sut mahsuloti",
+    "description": "Qatiqdan tayyorlangan yangi pishloq. Nonushta uchun juda mashhur. Ko'pincha qatiq bilan birga yeyladi.",
+    "ingredients": [
+      "Qatiq yoki sut",
+      "Limon kislotasi yoki sirka"
+    ],
+    "preparation_time_min": 60,
+    "calories_per_100g": 155,
+    "tags": [
+      "sut mahsuloti",
+      "nonushta",
+      "yangi"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Qovoq Bo'tqa",
+    "category": "Shirinlik",
+    "description": "Qovoqni shakar va yog' bilan pishirib tayyorlanadigan shirin bo'tqa. Bolalar va keksalar sevib yeydi.",
+    "ingredients": [
+      "Qovoq",
+      "Shakar",
+      "Sariyog'",
+      "Vanillin",
+      "Suv"
+    ],
+    "preparation_time_min": 40,
+    "calories_per_100g": 95,
+    "tags": [
+      "shirin",
+      "qovoqli",
+      "vegetarian",
+      "bolalar taomi"
+    ],
+    "region_ids": [
+      14,
+      15
+    ],
+    "region_names": [
+      "Xorazm viloyati",
+      "Qoraqalpog'iston Respublikasi"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Qovoqli Somsa",
+    "category": "Non-xamir mahsuloti",
+    "description": "Ichiga maydalangan qovoq, piyoz va zira solingan somsa. Vegetarian va yengil taom.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Qovoq",
+      "Piyoz",
+      "O'simlik yog'i",
+      "Tuz",
+      "Zira",
+      "Qora murch"
+    ],
+    "preparation_time_min": 65,
+    "calories_per_100g": 185,
+    "tags": [
+      "tandir",
+      "vegetarian",
+      "qovoqli",
+      "non mahsuloti"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Sho'rak",
+    "category": "Sho'rva",
+    "description": "Qo'y go'shti va ko'katlardan tayyorlanadigan nordon ta'mli sho'rva. Ko'pincha qatiq qo'shib beriladi.",
+    "ingredients": [
+      "Qo'y go'shti",
+      "Ismaloq",
+      "Kichiri",
+      "Piyoz",
+      "Qatiq",
+      "Tuz",
+      "Murch"
+    ],
+    "preparation_time_min": 70,
+    "calories_per_100g": 80,
+    "tags": [
+      "sho'rva",
+      "ko'katli",
+      "qoraqalpog'iston"
+    ],
+    "region_ids": [
+      14,
+      15
+    ],
+    "region_names": [
+      "Xorazm viloyati",
+      "Qoraqalpog'iston Respublikasi"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Qovoqli Manti",
+    "category": "Xamirli taom",
+    "description": "Ichiga qovoq va piyoz solingan manti. Go'shtsiz variant bo'lib, mazasi va to'yimliligi bilan ajralib turadi.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Qovoq",
+      "Piyoz",
+      "Dumba yog'i",
+      "Tuz",
+      "Zira",
+      "Qora murch",
+      "Suv"
+    ],
+    "preparation_time_min": 55,
+    "calories_per_100g": 160,
+    "tags": [
+      "bug'da pishirilgan",
+      "qovoqli",
+      "vegetarian",
+      "xamirli"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Sho'rvali Lag'mon",
+    "category": "Sho'rva",
+    "description": "Lag'mon noodlesini sho'rvada qaynatib berilgan variant. Qovurma lag'mondan farqli — suyuqroq va engil.",
+    "ingredients": [
+      "Lag'mon noodlesi",
+      "Mol go'shti",
+      "Sabzi",
+      "Bolgar qalampiri",
+      "Piyoz",
+      "Pomidor",
+      "Sarimsoq",
+      "Tuz",
+      "Zira"
+    ],
+    "preparation_time_min": 70,
+    "calories_per_100g": 120,
+    "tags": [
+      "noodles",
+      "sho'rva",
+      "go'shtli"
+    ],
+    "region_ids": [
+      12,
+      13
+    ],
+    "region_names": [
+      "Toshkent viloyati",
+      "Farg'ona viloyati"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Nuhot Shurva",
+    "category": "Sho'rva",
+    "description": "Nohot (qo'ng'ir loviya) va go'shtdan tayyorlanadigan to'yimli sho'rva. Protein jihatdan boy taom.",
+    "ingredients": [
+      "Nohot",
+      "Qo'y go'shti",
+      "Piyoz",
+      "Sabzi",
+      "Pomidor",
+      "Tuz",
+      "Zira",
+      "Koriander"
+    ],
+    "preparation_time_min": 100,
+    "calories_per_100g": 115,
+    "tags": [
+      "sho'rva",
+      "nohotli",
+      "go'shtli",
+      "to'yimli"
+    ],
+    "region_ids": [
+      3,
+      8
+    ],
+    "region_names": [
+      "Buxoro viloyati",
+      "Samarqand viloyati"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Qovoq Palov",
+    "category": "Asosiy taom",
+    "description": "Xorazm uslubida pishiriladigan, qovoq va guruch asosidagi palov. Shirin qovoq guruchga alohida ta'm beradi.",
+    "ingredients": [
+      "Guruch",
+      "Qovoq",
+      "Piyoz",
+      "O'simlik yog'i",
+      "Tuz",
+      "Zira",
+      "Qand shakar (ixtiyoriy)"
+    ],
+    "preparation_time_min": 80,
+    "calories_per_100g": 190,
+    "tags": [
+      "guruchli",
+      "qovoqli",
+      "xorazm",
+      "vegetarian"
+    ],
+    "region_ids": [
+      14
+    ],
+    "region_names": [
+      "Xorazm viloyati"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Tarvuz Palov",
+    "category": "Asosiy taom",
+    "description": "Tarvuzqovoq qo'shib pishiriladigan Xorazm palov varianti. O'ziga xos shirin-sho'r ta'mi bor.",
+    "ingredients": [
+      "Guruch",
+      "Qo'y go'shti",
+      "Tarvuzqovoq",
+      "Sabzi",
+      "Piyoz",
+      "O'simlik yog'i",
+      "Tuz",
+      "Zira"
+    ],
+    "preparation_time_min": 90,
+    "calories_per_100g": 200,
+    "tags": [
+      "guruchli",
+      "go'shtli",
+      "xorazm",
+      "an'anaviy"
+    ],
+    "region_ids": [
+      14
+    ],
+    "region_names": [
+      "Xorazm viloyati"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Kazan Dimlama",
+    "category": "Asosiy taom",
+    "description": "Katta qozonda barcha sabzavot va go'shtni qatlab, qopqoq yopib buglatiladigan Toshkent usuli dimlama.",
+    "ingredients": [
+      "Mol go'shti",
+      "Kartoshka",
+      "Karam",
+      "Sabzi",
+      "Piyoz",
+      "Bolgar qalampiri",
+      "Pomidor",
+      "Baklajan",
+      "Tuz",
+      "Zira"
+    ],
+    "preparation_time_min": 100,
+    "calories_per_100g": 125,
+    "tags": [
+      "dumlanadi",
+      "sabzavotli",
+      "go'shtli",
+      "toshkent"
+    ],
+    "region_ids": [
+      12
+    ],
+    "region_names": [
+      "Toshkent viloyati"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Baklajan Kabob",
+    "category": "Kabob",
+    "description": "Ko'mirda pishirilgan baklajan va qo'y go'shti kabob. Tutun hidli baklajanlar mazasini go'shtga beradi.",
+    "ingredients": [
+      "Baklajan",
+      "Qo'y go'shti",
+      "Piyoz",
+      "Pomidor",
+      "Tuz",
+      "Qora murch",
+      "O'simlik yog'i"
+    ],
+    "preparation_time_min": 40,
+    "calories_per_100g": 145,
+    "tags": [
+      "kabob",
+      "baklajanli",
+      "ko'mirda pishirilgan"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Jiz (Jiz-Biz)",
+    "category": "Asosiy taom",
+    "description": "Qo'y ichaklari va yog'ini qovurib tayyorlanadigan taom. Ko'pincha kartoshka bilan birga qovuriladi.",
+    "ingredients": [
+      "Qo'y ichagi",
+      "Qo'y yog'i",
+      "Kartoshka",
+      "Piyoz",
+      "Tuz",
+      "Zira",
+      "Qora murch"
+    ],
+    "preparation_time_min": 45,
+    "calories_per_100g": 310,
+    "tags": [
+      "qovurilgan",
+      "go'shtli",
+      "an'anaviy"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Tuxumli Qovoq",
+    "category": "Asosiy taom",
+    "description": "Qovoqni yog'da qovurib, ustiga tuxum quyiladigan oddiy va tez tayyorlanadigan taom.",
+    "ingredients": [
+      "Qovoq",
+      "Tuxum",
+      "Piyoz",
+      "O'simlik yog'i",
+      "Tuz",
+      "Qora murch",
+      "Ko'k piyoz"
+    ],
+    "preparation_time_min": 20,
+    "calories_per_100g": 110,
+    "tags": [
+      "qovurilgan",
+      "tuxumli",
+      "tez tayyor",
+      "vegetarian"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Lipia (Lepyoshka)",
+    "category": "Non",
+    "description": "Yupqa va yumshoq tandirda pishirilgan non. Oddiy va tez tayyorlanadigan kundalik non.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Suv",
+      "Tuz",
+      "Xamirturush",
+      "O'simlik yog'i"
+    ],
+    "preparation_time_min": 90,
+    "calories_per_100g": 255,
+    "tags": [
+      "non",
+      "tandir",
+      "kundalik",
+      "an'anaviy"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Qatlama",
+    "category": "Non-xamir mahsuloti",
+    "description": "Yupqa xamirni yog' bilan ko'p qavatlab o'rab, qovurib pishiriladigan non mahsuloti.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Sariyog' yoki margarin",
+      "Suv",
+      "Tuz",
+      "Tuxum"
+    ],
+    "preparation_time_min": 50,
+    "calories_per_100g": 340,
+    "tags": [
+      "non",
+      "ko'p qatlamli",
+      "qovurilgan",
+      "nonushta"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Shirin Palov (Kovurma Osh)",
+    "category": "Asosiy taom",
+    "description": "Qishmish, mayiz va quruq mevalar bilan boyitilgan shirin palov. To'y va bayramlarda tayyorlanadi.",
+    "ingredients": [
+      "Guruch",
+      "Qo'y go'shti",
+      "Sabzi",
+      "Piyoz",
+      "Qishmish",
+      "Mayiz",
+      "O'rik qurutig'i",
+      "Olcha qurutig'i",
+      "Yog'",
+      "Zira",
+      "Tuz"
+    ],
+    "preparation_time_min": 110,
+    "calories_per_100g": 245,
+    "tags": [
+      "guruchli",
+      "shirin",
+      "mevali",
+      "bayram taomi"
+    ],
+    "region_ids": [
+      3,
+      8
+    ],
+    "region_names": [
+      "Buxoro viloyati",
+      "Samarqand viloyati"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Ugra Sho'rva",
+    "category": "Sho'rva",
+    "description": "Uy qo'lda tayyorlangan ingichka noodles va go'sht bilan pishirilgan sho'rva. Bolalar uchun sevimli taom.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Tuxum",
+      "Qo'y go'shti",
+      "Sabzi",
+      "Piyoz",
+      "Kartoshka",
+      "Tuz",
+      "Koriander"
+    ],
+    "preparation_time_min": 80,
+    "calories_per_100g": 100,
+    "tags": [
+      "sho'rva",
+      "noodlesli",
+      "go'shtli",
+      "uy taomi"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Qovoqli Chuchvara",
+    "category": "Xamirli taom",
+    "description": "Ichiga qovoq va piyoz solingan chuchvara. Sho'rvada yoki qovurilgan holda beriladi.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Qovoq",
+      "Piyoz",
+      "Tuz",
+      "Qora murch",
+      "Zira",
+      "Suv"
+    ],
+    "preparation_time_min": 55,
+    "calories_per_100g": 145,
+    "tags": [
+      "xamirli",
+      "qovoqli",
+      "vegetarian"
+    ],
+    "region_ids": [
+      12,
+      13
+    ],
+    "region_names": [
+      "Toshkent viloyati",
+      "Farg'ona viloyati"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Qovurdoq",
+    "category": "Asosiy taom",
+    "description": "Go'sht va sabzavotlarni birga qovurib tayyorlanadigan oddiy va mazali taom. Tez tayyorlanadi.",
+    "ingredients": [
+      "Mol yoki qo'y go'shti",
+      "Kartoshka",
+      "Piyoz",
+      "Sabzi",
+      "Bolgar qalampiri",
+      "Tuz",
+      "Zira",
+      "O'simlik yog'i"
+    ],
+    "preparation_time_min": 40,
+    "calories_per_100g": 175,
+    "tags": [
+      "qovurilgan",
+      "go'shtli",
+      "sabzavotli",
+      "tez tayyor"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Sabzi Palov",
+    "category": "Asosiy taom",
+    "description": "Asosan sabzi bilan tayyorlanadigan palov varianti. Go'sht miqdori kam, sabzi esa ko'p solinadi.",
+    "ingredients": [
+      "Guruch",
+      "Sabzi",
+      "Piyoz",
+      "O'simlik yog'i",
+      "Tuz",
+      "Zira",
+      "Qo'y go'shti (oz miqdorda)"
+    ],
+    "preparation_time_min": 80,
+    "calories_per_100g": 180,
+    "tags": [
+      "guruchli",
+      "sabzili",
+      "an'anaviy"
+    ],
+    "region_ids": [
+      12
+    ],
+    "region_names": [
+      "Toshkent viloyati"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Muzqaymoq (Milliy)",
+    "category": "Shirinlik",
+    "description": "Qatiq va sut asosida tayyorlanadigan milliy muzqaymoq. Zamonaviy muzqaymoqdan farqli, tabiiy mazasi bor.",
+    "ingredients": [
+      "Sut",
+      "Qatiq",
+      "Shakar",
+      "Vanillin",
+      "Tuxum sarig'i"
+    ],
+    "preparation_time_min": 180,
+    "calories_per_100g": 195,
+    "tags": [
+      "shirinlik",
+      "sovuq",
+      "sut mahsuloti"
+    ],
+    "region_ids": [
+      8,
+      12
+    ],
+    "region_names": [
+      "Samarqand viloyati",
+      "Toshkent viloyati"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Xonim",
+    "category": "Xamirli taom",
+    "description": "Mantidan farqli o'laroq, yupqa xamirni go'sht bilan rulo shaklida o'rab, bug'da pishiriladigan taom.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Mol go'shti",
+      "Kartoshka",
+      "Piyoz",
+      "Sabzi",
+      "Tuz",
+      "Zira",
+      "Qora murch",
+      "Suv"
+    ],
+    "preparation_time_min": 70,
+    "calories_per_100g": 170,
+    "tags": [
+      "bug'da pishirilgan",
+      "go'shtli",
+      "xamirli",
+      "rulo"
+    ],
+    "region_ids": [
+      12,
+      13
+    ],
+    "region_names": [
+      "Toshkent viloyati",
+      "Farg'ona viloyati"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Qovoqli Xonim",
+    "category": "Xamirli taom",
+    "description": "Xonimning qovoqli varianti. Ichiga qovoq, piyoz va zira solinib, bug'da pishiriladi.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Qovoq",
+      "Piyoz",
+      "Dumba yog'i",
+      "Tuz",
+      "Zira",
+      "Suv"
+    ],
+    "preparation_time_min": 60,
+    "calories_per_100g": 150,
+    "tags": [
+      "bug'da pishirilgan",
+      "qovoqli",
+      "vegetarian",
+      "rulo"
+    ],
+    "region_ids": [
+      12
+    ],
+    "region_names": [
+      "Toshkent viloyati"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Baklajalli Kabob",
+    "category": "Kabob",
+    "description": "Ko'mirda pishirilgan baklajan go'sht kabob bilan birga beriladi. Tutunli baklajan go'shtga ajoyib ta'm beradi.",
+    "ingredients": [
+      "Baklajan",
+      "Qo'y go'shti",
+      "Pomidor",
+      "Piyoz",
+      "Tuz",
+      "Murch",
+      "O'simlik yog'i"
+    ],
+    "preparation_time_min": 35,
+    "calories_per_100g": 140,
+    "tags": [
+      "kabob",
+      "baklajanli",
+      "ko'mirda pishirilgan"
+    ],
+    "region_ids": [
+      3,
+      8
+    ],
+    "region_names": [
+      "Buxoro viloyati",
+      "Samarqand viloyati"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Ko'rak (Kovrak)",
+    "category": "Sho'rva",
+    "description": "Ko'k no'xot va sabzavotlardan tayyorlanadigan bahorgi sho'rva. Faqat bahor mavsumida tayyorlanadi.",
+    "ingredients": [
+      "Ko'k no'xot",
+      "Qo'y go'shti",
+      "Piyoz",
+      "Tuz",
+      "Koriander",
+      "Murch"
+    ],
+    "preparation_time_min": 60,
+    "calories_per_100g": 90,
+    "tags": [
+      "sho'rva",
+      "bahor taomi",
+      "ko'k no'xot",
+      "mavsumiy"
+    ],
+    "region_ids": [
+      5,
+      5723
+    ],
+    "region_names": [
+      "Qashqadaryo viloyati",
+      "Surxondaryo viloyati"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Qovoq Halva",
+    "category": "Shirinlik",
+    "description": "Qovoqdan tayyorlanadigan milliy halva. Shakar va sariyog' bilan shirin qilinadi.",
+    "ingredients": [
+      "Qovoq",
+      "Shakar",
+      "Sariyog'",
+      "Bug'doy uni",
+      "Vanillin"
+    ],
+    "preparation_time_min": 50,
+    "calories_per_100g": 220,
+    "tags": [
+      "shirinlik",
+      "qovoqli",
+      "halva",
+      "xorazm"
+    ],
+    "region_ids": [
+      3,
+      14
+    ],
+    "region_names": [
+      "Buxoro viloyati",
+      "Xorazm viloyati"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Paxtali Osh",
+    "category": "Asosiy taom",
+    "description": "Paxta moyi va qo'y go'shti bilan tayyorlanadigan Farg'ona uslubidagi palov. O'ziga xos sariq rang va hid.",
+    "ingredients": [
+      "Guruch",
+      "Qo'y go'shti",
+      "Sabzi",
+      "Piyoz",
+      "Paxta yog'i",
+      "Zira",
+      "Tuz",
+      "Sarımsaq"
+    ],
+    "preparation_time_min": 95,
+    "calories_per_100g": 215,
+    "tags": [
+      "guruchli",
+      "go'shtli",
+      "farg'ona",
+      "paxta yog'li"
+    ],
+    "region_ids": [
+      13
+    ],
+    "region_names": [
+      "Farg'ona viloyati"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Qovoqli Lag'mon",
+    "category": "Sho'rva",
+    "description": "Tarvuzqovoq va sabzavotlar qo'shilgan lag'mon varianti. Yozda ko'p tayyorlanadi.",
+    "ingredients": [
+      "Lag'mon noodlesi",
+      "Tarvuzqovoq",
+      "Mol go'shti",
+      "Piyoz",
+      "Bolgar qalampiri",
+      "Pomidor",
+      "Sarimsoq",
+      "O'simlik yog'i",
+      "Tuz",
+      "Zira"
+    ],
+    "preparation_time_min": 65,
+    "calories_per_100g": 130,
+    "tags": [
+      "noodles",
+      "sho'rva",
+      "qovoqli",
+      "yozgi"
+    ],
+    "region_ids": [
+      12,
+      13
+    ],
+    "region_names": [
+      "Toshkent viloyati",
+      "Farg'ona viloyati"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Iskandar Kabob",
+    "category": "Kabob",
+    "description": "Samarqandning maxsus kabob turi. Qo'y go'shtini yupqa kesib marinadlab, shishga tizib pishiriladi.",
+    "ingredients": [
+      "Qo'y go'shti (yupqa kesimlar)",
+      "Piyoz",
+      "Zira",
+      "Koriander",
+      "Tuz",
+      "Qora murch",
+      "Sarimsoq"
+    ],
+    "preparation_time_min": 50,
+    "calories_per_100g": 220,
+    "tags": [
+      "kabob",
+      "samarqand",
+      "ko'mirda pishirilgan"
+    ],
+    "region_ids": [
+      8
+    ],
+    "region_names": [
+      "Samarqand viloyati"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Qimiz",
+    "category": "Ichimlik",
+    "description": "Biya sutidan tayyorlanadigan fermentlangan milliy ichimlik. Qoraqalpog'iston va ko'chmanchi xalqlarda keng tarqalgan.",
+    "ingredients": [
+      "Biya suti",
+      "Xamirturush"
+    ],
+    "preparation_time_min": 2880,
+    "calories_per_100g": 50,
+    "tags": [
+      "ichimlik",
+      "fermentlangan",
+      "qoraqalpog'iston",
+      "milliy"
+    ],
+    "region_ids": [
+      15
+    ],
+    "region_names": [
+      "Qoraqalpog'iston Respublikasi"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Shirchoy",
+    "category": "Ichimlik",
+    "description": "Sut va choy aralashtirib tayyorlanadigan issiq ichimlik. Qoraqalpog'istonda nonushta uchun asosiy ichimlik.",
+    "ingredients": [
+      "Ko'k choy",
+      "Sut",
+      "Tuz",
+      "Sariyog' (ixtiyoriy)"
+    ],
+    "preparation_time_min": 10,
+    "calories_per_100g": 35,
+    "tags": [
+      "ichimlik",
+      "sutli choy",
+      "nonushta",
+      "qoraqalpog'iston"
+    ],
+    "region_ids": [
+      14,
+      15
+    ],
+    "region_names": [
+      "Xorazm viloyati",
+      "Qoraqalpog'iston Respublikasi"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Samsa Bilan Shurvo",
+    "category": "Sho'rva",
+    "description": "Qo'y go'shti sho'rvasi ichiga somsa solib beriluvchi Toshkent an'anasi. Ikkisi birgalikda yeyiladi.",
+    "ingredients": [
+      "Qo'y go'shti",
+      "Somsa",
+      "Sabzi",
+      "Piyoz",
+      "Kartoshka",
+      "Tuz",
+      "Koriander"
+    ],
+    "preparation_time_min": 90,
+    "calories_per_100g": 150,
+    "tags": [
+      "sho'rva",
+      "somsali",
+      "toshkent",
+      "an'anaviy"
+    ],
+    "region_ids": [
+      12
+    ],
+    "region_names": [
+      "Toshkent viloyati"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Qovoq Somsa (Buxoro uslubi)",
+    "category": "Non-xamir mahsuloti",
+    "description": "Buxoro uslubida tayyorlanadigan qovoqli somsa. Ko'p qatlamli xamir va shirin qovoq to'ldirgich bilan.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Qovoq",
+      "Shakar",
+      "Sariyog'",
+      "Tuz",
+      "Zira",
+      "Tuxum"
+    ],
+    "preparation_time_min": 75,
+    "calories_per_100g": 210,
+    "tags": [
+      "tandir",
+      "qovoqli",
+      "shirin",
+      "buxoro"
+    ],
+    "region_ids": [
+      3
+    ],
+    "region_names": [
+      "Buxoro viloyati"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Qovoq Chuchvara Sho'rvasi",
+    "category": "Sho'rva",
+    "description": "Qovoqli chuchvaralarni go'sht sho'rvasida qaynatib tayyorlanadigan taom.",
+    "ingredients": [
+      "Chuchvara (qovoqli)",
+      "Qo'y go'shti sho'rvasi",
+      "Piyoz",
+      "Sabzi",
+      "Tuz",
+      "Koriander",
+      "Qora murch"
+    ],
+    "preparation_time_min": 65,
+    "calories_per_100g": 105,
+    "tags": [
+      "sho'rva",
+      "chuchvarali",
+      "qovoqli"
+    ],
+    "region_ids": [
+      2,
+      12
+    ],
+    "region_names": [
+      "Andijon viloyati",
+      "Toshkent viloyati"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Gumma",
+    "category": "Non-xamir mahsuloti",
+    "description": "Xorazmning maxsus taomi — ichiga go'sht va piyoz solingan katta dumaloq xamir. Tandirda pishiriladi.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Qo'y go'shti",
+      "Piyoz",
+      "Dumba yog'i",
+      "Tuz",
+      "Zira",
+      "Qora murch",
+      "Suv"
+    ],
+    "preparation_time_min": 80,
+    "calories_per_100g": 255,
+    "tags": [
+      "tandir",
+      "go'shtli",
+      "xorazm",
+      "an'anaviy"
+    ],
+    "region_ids": [
+      14
+    ],
+    "region_names": [
+      "Xorazm viloyati"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Yupqa",
+    "category": "Non-xamir mahsuloti",
+    "description": "Juda yupqa qilib yoylangan, qizdirilgan sathda pishirilgan non. Ko'pincha go'sht yoki sariyog' bilan yeyiladi.",
+    "ingredients": [
+      "Bug'doy uni",
+      "Suv",
+      "Tuz"
+    ],
+    "preparation_time_min": 30,
+    "calories_per_100g": 240,
+    "tags": [
+      "non",
+      "yupqa",
+      "xorazm",
+      "tez tayyor"
+    ],
+    "region_ids": [
+      14,
+      15
+    ],
+    "region_names": [
+      "Xorazm viloyati",
+      "Qoraqalpog'iston Respublikasi"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Chimkent Palov",
+    "category": "Asosiy taom",
+    "description": "Toshkentning o'ziga xos palov varianti. Nohot va sarımsaq qo'shilgan, sho'r-mazali palov.",
+    "ingredients": [
+      "Guruch",
+      "Qo'y go'shti",
+      "Sabzi",
+      "Piyoz",
+      "Nohot",
+      "Sarımsaq boshi",
+      "O'simlik yog'i",
+      "Zira",
+      "Tuz"
+    ],
+    "preparation_time_min": 95,
+    "calories_per_100g": 215,
+    "tags": [
+      "guruchli",
+      "go'shtli",
+      "nohotli",
+      "toshkent"
+    ],
+    "region_ids": [
+      12
+    ],
+    "region_names": [
+      "Toshkent viloyati"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Kuzgi Dimlama",
+    "category": "Asosiy taom",
+    "description": "Kuzgi sabzavotlar (baklajan, pomidor, qalampir) bilan to'ldirilgan dimlama. Kuz mavsumida mashhur.",
+    "ingredients": [
+      "Qo'y go'shti",
+      "Baklajan",
+      "Pomidor",
+      "Bolgar qalampiri",
+      "Kartoshka",
+      "Piyoz",
+      "Sabzi",
+      "Tuz",
+      "Zira",
+      "O'simlik yog'i"
+    ],
+    "preparation_time_min": 90,
+    "calories_per_100g": 115,
+    "tags": [
+      "dumlanadi",
+      "sabzavotli",
+      "go'shtli",
+      "kuz taomi"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Tuxum Kabob",
+    "category": "Kabob",
+    "description": "Qiyma go'shtni tuxum bilan aralashtirib, shishga tizib ko'mirda yoki qozonda pishiriladigan kabob.",
+    "ingredients": [
+      "Qo'y go'shti (qiyma)",
+      "Tuxum",
+      "Piyoz",
+      "Tuz",
+      "Zira",
+      "Qora murch",
+      "Sarimsoq"
+    ],
+    "preparation_time_min": 35,
+    "calories_per_100g": 230,
+    "tags": [
+      "kabob",
+      "tuxumli",
+      "qiyma",
+      "ko'mirda pishirilgan"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Mevali Palov",
+    "category": "Asosiy taom",
+    "description": "Quruq o'rik, olcha, shaftoli qurutig'i va boshqa mevalar qo'shilgan festiv palov.",
+    "ingredients": [
+      "Guruch",
+      "Qo'y go'shti",
+      "Sabzi",
+      "Piyoz",
+      "Quruq o'rik",
+      "Olcha qurutig'i",
+      "Qishmish",
+      "Yog'",
+      "Zira",
+      "Tuz"
+    ],
+    "preparation_time_min": 105,
+    "calories_per_100g": 235,
+    "tags": [
+      "guruchli",
+      "mevali",
+      "bayram taomi",
+      "samarqand"
+    ],
+    "region_ids": [
+      3,
+      8
+    ],
+    "region_names": [
+      "Buxoro viloyati",
+      "Samarqand viloyati"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Tahorat Oshi",
+    "category": "Marosim taomi",
+    "description": "Dafn marosimi yoki xudoyi uchun tayyorlanadigan oddiy palov. Ko'pincha go'shtsiz yoki kam go'shtli pishiriladi.",
+    "ingredients": [
+      "Guruch",
+      "Sabzi",
+      "Piyoz",
+      "O'simlik yog'i",
+      "Tuz",
+      "Zira",
+      "Qo'y go'shti (kam miqdorda)"
+    ],
+    "preparation_time_min": 80,
+    "calories_per_100g": 190,
+    "tags": [
+      "guruchli",
+      "marosim",
+      "an'anaviy",
+      "dafn marosimi"
+    ],
+    "region_ids": [
+      0
+    ],
+    "region_names": [
+      "Barcha viloyatlarda"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Nimcha",
+    "category": "Sho'rva",
+    "description": "Janubiy O'zbekistoning maxsus sho'rvasi. Qo'y go'shti va ko'katlar bilan tayyorlanadi.",
+    "ingredients": [
+      "Qo'y go'shti",
+      "Ismaloq",
+      "Kichiri",
+      "Piyoz",
+      "Tuz",
+      "Qora murch",
+      "Koriander"
+    ],
+    "preparation_time_min": 65,
+    "calories_per_100g": 85,
+    "tags": [
+      "sho'rva",
+      "ko'katli",
+      "janubiy",
+      "qashqadaryo"
+    ],
+    "region_ids": [
+      5,
+      5723
+    ],
+    "region_names": [
+      "Qashqadaryo viloyati",
+      "Surxondaryo viloyati"
+    ]
   }
 ]
