@@ -1,3 +1,6 @@
+> [!WARNING]
+> **Muhim eslatma:** Ma'lumotlar sun'iy intellektdan olinganda ularni albatta tekshirib, tahrirlang. AI xato yoki eskirgan ma'lumot berishi mumkin.
+
 # 🍽️ O'zbek Taomlari JSON Ma'lumotlar Bazasi
 
 O'zbek milliy taomlari to'plami — strukturaviy JSON formatda.
