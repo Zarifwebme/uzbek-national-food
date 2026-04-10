@@ -1,113 +1,99 @@
 [
     {
-        "id": 2,
-        "soato_id": 1703,
+        "id": 0,
         "name_uz": "Andijon viloyati",
-        "name_oz": "Андижон вилояти",
+        "name_kr": "Андижон вилояти",
         "name_ru": "Андижанская область",
         "name_en": "Andijan Region"
     },
     {
-        "id": 3,
-        "soato_id": 1706,
+        "id": 1,
         "name_uz": "Buxoro viloyati",
-        "name_oz": "Бухоро вилояти",
+        "name_kr": "Бухоро вилояти",
         "name_ru": "Бухарская область",
         "name_en": "Bukhara Region"
     },
     {
-        "id": 4,
-        "soato_id": 1708,
+        "id": 2,
         "name_uz": "Jizzax viloyati",
-        "name_oz": "Жиззах вилояти",
+        "name_kr": "Жиззах вилояти",
         "name_ru": "Джизакская область",
         "name_en": "Jizzakh Region"
     },
     {
-        "id": 5,
-        "soato_id": 1710,
+        "id": 3,
         "name_uz": "Qashqadaryo viloyati",
-        "name_oz": "Қашқадарё вилояти",
+        "name_kr": "Қашқадарё вилояти",
         "name_ru": "Кашкадарьинская область",
         "name_en": "Kashkadarya Region"
     },
     {
-        "id": 6,
-        "soato_id": 1712,
+        "id": 4,
         "name_uz": "Navoiy viloyati",
-        "name_oz": "Навоий вилояти",
+        "name_kr": "Навоий вилояти",
         "name_ru": "Навоийская область",
         "name_en": "Navoi Region"
     },
     {
-        "id": 7,
-        "soato_id": 1714,
+        "id": 5,
         "name_uz": "Namangan viloyati",
-        "name_oz": "Наманган вилояти",
+        "name_kr": "Наманган вилояти",
         "name_ru": "Наманганская область",
         "name_en": "Namangan Region"
     },
     {
-        "id": 8,
-        "soato_id": 1718,
+        "id": 6,
         "name_uz": "Samarqand viloyati",
-        "name_oz": "Самарқанд вилояти",
+        "name_kr": "Самарқанд вилояти",
         "name_ru": "Самаркандская область",
         "name_en": "Samarkand Region"
     },
     {
-        "id": 10,
-        "soato_id": 1724,
+        "id": 7,
         "name_uz": "Sirdaryo viloyati",
-        "name_oz": "Сирдарё вилояти",
+        "name_kr": "Сирдарё вилояти",
         "name_ru": "Сырдарьинская область",
         "name_en": "Syrdarya Region"
     },
     {
-        "id": 11,
-        "soato_id": 1726,
+        "id": 8,
         "name_uz": "Toshkent shahri",
-        "name_oz": "Тошкент шаҳри",
+        "name_kr": "Тошкент шаҳри",
         "name_ru": "город Ташкент",
         "name_en": "Tashkent City"
     },
     {
-        "id": 12,
-        "soato_id": 1727,
+        "id": 9,
         "name_uz": "Toshkent viloyati",
-        "name_oz": "Тошкент вилояти",
+        "name_kr": "Тошкент вилояти",
         "name_ru": "Ташкентская область",
         "name_en": "Tashkent Region"
     },
     {
-        "id": 13,
-        "soato_id": 1730,
+        "id": 10,
         "name_uz": "Farg'ona viloyati",
-        "name_oz": "Фарғона вилояти",
+        "name_kr": "Фарғона вилояти",
         "name_ru": "Ферганская область",
         "name_en": "Fergana Region"
     },
     {
-        "id": 14,
-        "soato_id": 1733,
+        "id": 11,
         "name_uz": "Xorazm viloyati",
-        "name_oz": "Хоразм вилояти",
+        "name_kr": "Хоразм вилояти",
         "name_ru": "Хорезмская область",
         "name_en": "Khorezm Region"
     },
     {
-        "id": 15,
-        "soato_id": 1735,
+        "id": 12,
         "name_uz": "Qoraqalpog'iston Respublikasi",
-        "name_oz": "Қорақалпоғистон Республикаси",
+        "name_kr": "Қорақалпоғистон Республикаси",
         "name_ru": "Республика Каракалпакстан",
         "name_en": "Republic of Karakalpakstan"
     },
     {
-        "id": 5723,
-        "soato_id": 1722,
+        "id": 13,
         "name_uz": "Surxondaryo viloyati",
-        "name_oz": "Сурхондарё вилояти",
+        "name_kr": "Сурхондарё вилояти",
         "name_ru": "Сурхандарьинская область",
         "name_en": "Surkhandarya Region"
     }
