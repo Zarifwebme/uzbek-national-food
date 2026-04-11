@@ -48,7 +48,6 @@ uzbek_taomlari/
 | `calories_per_100g` | `number` | 100 grammdagi kaloriya |
 | `tags` | `string[]` | Qidiruv teglari |
 | `region_ids` | `number[]` | Viloyat IDlari (`[0]` = barcha viloyatlar) |
-| `region_names` | `string[]` | Viloyat nomlari (o'zbekcha) |
 
 ---
 
