@@ -1,0 +1,11 @@
+[
+  { "id": 1, "slug": "asosiy-taom", "name": "Asosiy taom" },
+  { "id": 2, "slug": "kabob", "name": "Kabob" },
+  { "id": 3, "slug": "shorva", "name": "Sho'rva" },
+  { "id": 4, "slug": "non", "name": "Non" },
+  { "id": 5, "slug": "xamirli-taom", "name": "Xamirli taom" },
+  { "id": 6, "slug": "shirinlik", "name": "Shirinlik" },
+  { "id": 7, "slug": "ichimlik", "name": "Ichimlik" },
+  { "id": 8, "slug": "sut-mahsuloti", "name": "Sut mahsuloti" },
+  { "id": 9, "slug": "marosim-taomi", "name": "Marosim taomi" }
+]
