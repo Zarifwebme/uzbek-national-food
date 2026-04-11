@@ -33,7 +33,6 @@ uzbek_taomlari/
   "calories_per_100g": 210,
   "tags": ["guruchli", "go'shtli", "bayram taomi", "an'anaviy"],
   "region_ids": [0],
-  "region_names": ["Barcha viloyatlarda"]
 }
 ```
 
