@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "Palov (Osh)",
     "category": "Asosiy taom",
     "description": "Guruch, go'sht va sabzidan tayyorlanadigan, O'zbekistonning ramzi hisoblangan milliy taom. Har bir viloyatda o'ziga xos pishirish uslubi mavjud.",
@@ -13,7 +13,7 @@
       "Zira",
       "Tuz",
       "Murch",
-      "Sarımsaq (ixtiyoriy)",
+      "Sarimsaq (ixtiyoriy)",
       "Nohot (ixtiyoriy)"
     ],
     "preparation_time_min": 90,
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "Manti",
     "category": "Xamirli taom",
     "description": "Yupqa xamir ichiga sersuv go'sht va piyoz solib, bug'da pishiriladigan taom. Odatda qatiq yoki smetana bilan beriladi.",
@@ -61,7 +61,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Somsa",
     "category": "Non-xamir mahsuloti",
     "description": "Qatlama xamir ichiga sersuv go'sht, kartoshka, ismaloq, qovoq, piyoz kabi mahsulotlardan solib, tandirda pishiriladigan taom.",
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Lag'mon",
     "category": "Sho'rva",
     "description": "Qo'lda cho'zilgan uzun noodles asosidagi sho'rva. Sabzavot va go'sht bilan boy sous bilan tayyorlanadi. Uyg'ur pazandachiligidan o'zlashtirilgan.",
@@ -130,8 +130,8 @@
     ]
   },
   {
-    "id": 5,
-    "name": "Shurva",
+    "id": 4,
+    "name": "Sho'rva",
     "category": "Sho'rva",
     "description": "Qo'y go'shti va sabzavotlardan tayyorlanadigan to'yimli sho'rva. Ko'pincha erta tong nonushtasida yeyiladi.",
     "ingredients": [
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Dimlama",
     "category": "Asosiy taom",
     "description": "Go'sht va sabzavotlarni qatlamlash orqali past olovda buglantirilib tayyorlanadigan taom. Barcha ingredientlar o'z shirasi bilan dimlanadi.",
@@ -196,7 +196,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Qozon Kabob",
     "category": "Kabob",
     "description": "Qozonda piyoz ustida qovuriladigan go'sht kabob. Shirin piyoz bilan birga beriladi.",
@@ -224,7 +224,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Shashlik",
     "category": "Kabob",
     "description": "Ko'mirda yoki olovda pishiriladigan shishga tizilgan go'sht kabob. O'zbekistonning eng mashhur ko'cha taomlari qatoriga kiradi.",
@@ -253,7 +253,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Tandir Kabob",
     "category": "Kabob",
     "description": "Tandirning ichki devorlariga yopishtirib pishiriladigan kabob. O'ziga xos tutun ta'mi bor.",
@@ -281,7 +281,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "Halim",
     "category": "Asosiy taom",
     "description": "Bug'doy va go'shtni uzoq muddat dimlab tayyorlanadigan quyuq, to'yimli taom. Qish oylarida juda mashhur.",
@@ -313,7 +313,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "Mastava",
     "category": "Sho'rva",
     "description": "Guruch asosidagi quyuq sho'rva. Shurva va palovning o'rtasidagi taom deyish mumkin.",
@@ -345,7 +345,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Moshxo'rda",
     "category": "Sho'rva",
     "description": "Mosh donasi asosidagi sho'rva. Tez hazm bo'lishi va foydali xususiyatlari bilan mashhur.",
@@ -377,7 +377,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "Norin",
     "category": "Asosiy taom",
     "description": "Qo'lda yoki mashinada tayyorlangan yupqa noodles ustiga qaynatilgan qo'y go'shti va piyoz solingan taom.",
@@ -407,7 +407,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Chuchvara",
     "category": "Xamirli taom",
     "description": "Kichkina o'lchamli go'shtli xamir bo'laklari. Sho'rvada yoki qovurilgan holda beriladi.",
@@ -435,7 +435,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 14,
     "name": "Qovoq Somsa",
     "category": "Non-xamir mahsuloti",
     "description": "Ichiga qovoq va piyoz solingan somsa. Vegetarian variant sifatida mashhur.",
@@ -466,7 +466,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "Katlama",
     "category": "Non-xamir mahsuloti",
     "description": "Ko'p qavatli yog'li non. Yog' yoki qiyma bilan pishiriladi. Nonushtaga juda mos keladi.",
@@ -491,7 +491,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "Tandir Non",
     "category": "Non",
     "description": "Tandirda pishiriladigan dumaloq shakldagi an'anaviy o'zbek noni. Ustiga kunjut yoki qorachoy sepiladi.",
@@ -518,7 +518,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 17,
     "name": "Nishallo",
     "category": "Shirinlik",
     "description": "Tuxum oqi, shakar va limon sharbatidan tayyorlanadigan oq, ko'pikli shirinlik. Ko'pincha samsa bilan birga beriladi.",
@@ -545,7 +545,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 18,
     "name": "Halva",
     "category": "Shirinlik",
     "description": "Un, yog' va shakardan tayyorlanadigan quyuq an'anaviy shirinlik. Ko'p turlari mavjud.",
@@ -573,7 +573,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 19,
     "name": "Chak-Chak",
     "category": "Shirinlik",
     "description": "Qovurilgan xamir bo'lakchalarini asal yoki shakar siropi bilan yopishtirib tayyorlanadigan shirinlik.",
@@ -601,7 +601,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 20,
     "name": "Qovoqli Palov",
     "category": "Asosiy taom",
     "description": "Oddiy palovdan farqli ravishda qovoq qo'shilgan palov. Qishda tayyorlanadigan maxsus variant.",
@@ -633,7 +633,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 21,
     "name": "Kovatok",
     "category": "Asosiy taom",
     "description": "Yosh bodring yoki qovoq ichini o'yib, go'sht bilan to'ldirib pishiriladigan taom.",
@@ -664,7 +664,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 22,
     "name": "Beshbarmaq",
     "category": "Asosiy taom",
     "description": "Keng noodles ustiga qo'y go'shti va piyoz solingan taom. Qo'shni xalqlardan o'tgan, ammo O'zbekistonda ham mashhur.",
@@ -691,12 +691,13 @@
     ]
   },
   {
-    "id": 24,
+    "id": 23,
     "name": "Qurt",
     "category": "Sut mahsuloti",
-    "description": "Qatiqdan tayyorlangan quritilgan sharsimon sut mahsuloti. Sayohat va yig'im paytida oziq sifatida ishlatiladi.",
+    "description": "Qatiq va chakkidan tayyorlangan quritilgan sharsimon sut mahsuloti. Sayohat va yig'im paytida oziq sifatida ishlatiladi.",
     "ingredients": [
       "Qatiq",
+      "Chakki",
       "Tuz"
     ],
     "preparation_time_min": 2880,
@@ -714,7 +715,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 24,
     "name": "Sumalak",
     "category": "Marosim taomi",
     "description": "Unib chiqqan bug'doy donasidan tayyorlanadigan maxsus Navro'z taomi. Butun kecha davomida aralashtirib pishiriladi.",
@@ -723,7 +724,7 @@
       "Bug'doy uni",
       "O'simlik yog'i",
       "Suv",
-      "Tosh (qozonga solinadi, yonmasligi uchun)"
+      "Tosh (qozonga solinadi, tagi olmasligi uchun)"
     ],
     "preparation_time_min": 720,
     "calories_per_100g": 130,
@@ -741,7 +742,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 25,
     "name": "Moshkichiri",
     "category": "Sho'rva",
     "description": "Mosh va guruchdan tayyorlanadigan quyuq sho'rva. Qo'y quyrug'i yog'i bilan xushbo'y qilinadi.",
@@ -771,7 +772,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 26,
     "name": "Qovurma Lag'mon",
     "category": "Asosiy taom",
     "description": "Qovurilgan go'sht va sabzavot sousi bilan berilgan lag'mon noodlesi. Sho'rva lag'mondan farqli o'laroq quyuqroq.",
@@ -806,61 +807,7 @@
     ]
   },
   {
-    "id": 28,
-    "name": "Juftlik Kabob",
-    "category": "Kabob",
-    "description": "Ikki xil go'shtni bir shishga tizib pishiriladigan kabob turi. Mol va qo'y go'shti aralashtiriladi.",
-    "ingredients": [
-      "Mol go'shti",
-      "Qo'y go'shti",
-      "Piyoz",
-      "Tuz",
-      "Qora murch",
-      "Zira",
-      "Sarimsoq"
-    ],
-    "preparation_time_min": 35,
-    "calories_per_100g": 235,
-    "tags": [
-      "kabob",
-      "ko'mirda pishirilgan",
-      "samarqand"
-    ],
-    "region_ids": [
-      8
-    ],
-    "region_names": [
-      "Samarqand viloyati"
-    ]
-  },
-  {
-    "id": 29,
-    "name": "Yog'li Non",
-    "category": "Non",
-    "description": "Yog'da qovurilgan yupqa non. Nonushta uchun eng sevimli taom.",
-    "ingredients": [
-      "Bug'doy uni",
-      "Suv",
-      "Tuz",
-      "O'simlik yog'i yoki sariyog'",
-      "Xamirturush"
-    ],
-    "preparation_time_min": 50,
-    "calories_per_100g": 325,
-    "tags": [
-      "non",
-      "qovurilgan",
-      "nonushta"
-    ],
-    "region_ids": [
-      13
-    ],
-    "region_names": [
-      "Farg'ona viloyati"
-    ]
-  },
-  {
-    "id": 30,
+    "id": 27,
     "name": "Tovuq Palov",
     "category": "Asosiy taom",
     "description": "Tovuq go'shti bilan tayyorlangan palov varianti. Qo'y go'shtiga qaraganda engil va oson hazm bo'ladi.",
@@ -890,7 +837,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 28,
     "name": "Ichak Kabob",
     "category": "Kabob",
     "description": "Qo'y ichagini tozalab, ichiga yog' o'rab shishga tizib, ko'mirda pishiriladigan o'ziga xos kabob.",
@@ -916,7 +863,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 29,
     "name": "Qozon Samsa",
     "category": "Non-xamir mahsuloti",
     "description": "Qozonda yog'da qovurib pishiriladigan samsa. Tandir somsadan farqli o'laroq qizarib chiqadi.",
@@ -944,7 +891,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 30,
     "name": "Ko'k Somsa",
     "category": "Non-xamir mahsuloti",
     "description": "Ichiga ko'kat (ismaloq, kichiri, rayhon) solingan somsa. Bahor mavsumida mashhur.",
@@ -975,7 +922,7 @@
     ]
   },
   {
-    "id": 34,
+    "id": 31,
     "name": "Do'lma",
     "category": "Asosiy taom",
     "description": "Karam yoki uzum bargiga go'sht va guruch solib o'rab, dimlab pishiriladigan taom.",
@@ -1006,7 +953,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 32,
     "name": "Qaynatma",
     "category": "Sho'rva",
     "description": "Sabzavot va go'shtni oddiy qaynatib tayyorlanadigan engil sho'rva. Kasalxonada yoki parhez uchun mos.",
@@ -1036,7 +983,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 33,
     "name": "Choy (Ko'k choy)",
     "category": "Ichimlik",
     "description": "O'zbekistonda mehmonnavozlikning ramzi. Ko'k choy (yashil choy) eng ko'p ichiladi. Choyxonalarda suhbat asosi.",
@@ -1059,7 +1006,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 34,
     "name": "Ayron",
     "category": "Ichimlik",
     "description": "Qatiq yoki suvlangan qatiqdan tayyorlangan salkam ichimlik. Yoz issig'ida juda foydali.",
@@ -1085,7 +1032,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 35,
     "name": "Qovoq Bo'tqa",
     "category": "Shirinlik",
     "description": "Qovoqni shakar va yog' bilan pishirib tayyorlanadigan shirin bo'tqa. Bolalar va keksalar sevib yeydi.",
@@ -1114,7 +1061,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 36,
     "name": "Qovoqli Somsa",
     "category": "Non-xamir mahsuloti",
     "description": "Ichiga maydalangan qovoq, piyoz va zira solingan somsa. Vegetarian va yengil taom.",
@@ -1143,7 +1090,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": 37,
     "name": "Sho'rak",
     "category": "Sho'rva",
     "description": "Qo'y go'shti va ko'katlardan tayyorlanadigan nordon ta'mli sho'rva. Ko'pincha qatiq qo'shib beriladi.",
@@ -1173,7 +1120,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": 38,
     "name": "Qovoqli Manti",
     "category": "Xamirli taom",
     "description": "Ichiga qovoq va piyoz solingan manti. Go'shtsiz variant bo'lib, mazasi va to'yimliligi bilan ajralib turadi.",
@@ -1203,40 +1150,8 @@
     ]
   },
   {
-    "id": 42,
-    "name": "Sho'rvali Lag'mon",
-    "category": "Sho'rva",
-    "description": "Lag'mon noodlesini sho'rvada qaynatib berilgan variant. Qovurma lag'mondan farqli — suyuqroq va engil.",
-    "ingredients": [
-      "Lag'mon noodlesi",
-      "Mol go'shti",
-      "Sabzi",
-      "Bolgar qalampiri",
-      "Piyoz",
-      "Pomidor",
-      "Sarimsoq",
-      "Tuz",
-      "Zira"
-    ],
-    "preparation_time_min": 70,
-    "calories_per_100g": 120,
-    "tags": [
-      "noodles",
-      "sho'rva",
-      "go'shtli"
-    ],
-    "region_ids": [
-      12,
-      13
-    ],
-    "region_names": [
-      "Toshkent viloyati",
-      "Farg'ona viloyati"
-    ]
-  },
-  {
-    "id": 43,
-    "name": "Nuhot Shurva",
+    "id": 39,
+    "name": "Nuhot Sho'rva",
     "category": "Sho'rva",
     "description": "Nohot (qo'ng'ir loviya) va go'shtdan tayyorlanadigan to'yimli sho'rva. Protein jihatdan boy taom.",
     "ingredients": [
@@ -1267,7 +1182,7 @@
     ]
   },
   {
-    "id": 44,
+    "id": 40,
     "name": "Qovoq Palov",
     "category": "Asosiy taom",
     "description": "Xorazm uslubida pishiriladigan, qovoq va guruch asosidagi palov. Shirin qovoq guruchga alohida ta'm beradi.",
@@ -1295,9 +1210,8 @@
       "Xorazm viloyati"
     ]
   },
-  
   {
-    "id": 45,
+    "id": 41,
     "name": "Kazan Dimlama",
     "category": "Asosiy taom",
     "description": "Katta qozonda barcha sabzavot va go'shtni qatlab, qopqoq yopib buglatiladigan Toshkent usuli dimlama.",
@@ -1329,7 +1243,7 @@
     ]
   },
   {
-    "id": 46,
+    "id": 42,
     "name": "Baklajan Kabob",
     "category": "Kabob",
     "description": "Ko'mirda pishirilgan baklajan va qo'y go'shti kabob. Tutun hidli baklajanlar mazasini go'shtga beradi.",
@@ -1357,7 +1271,7 @@
     ]
   },
   {
-    "id": 47,
+    "id": 43,
     "name": "Jiz (Jiz-Biz)",
     "category": "Asosiy taom",
     "description": "Qo'y ichaklari va yog'ini qovurib tayyorlanadigan taom. Ko'pincha kartoshka bilan birga qovuriladi.",
@@ -1385,7 +1299,7 @@
     ]
   },
   {
-    "id": 48,
+    "id": 44,
     "name": "Tuxumli Qovoq",
     "category": "Asosiy taom",
     "description": "Qovoqni yog'da qovurib, ustiga tuxum quyiladigan oddiy va tez tayyorlanadigan taom.",
@@ -1414,7 +1328,7 @@
     ]
   },
   {
-    "id": 49,
+    "id": 45,
     "name": "Lipia (Lepyoshka)",
     "category": "Non",
     "description": "Yupqa va yumshoq tandirda pishirilgan non. Oddiy va tez tayyorlanadigan kundalik non.",
@@ -1441,7 +1355,7 @@
     ]
   },
   {
-    "id": 50,
+    "id": 46,
     "name": "Qatlama",
     "category": "Non-xamir mahsuloti",
     "description": "Yupqa xamirni yog' bilan ko'p qavatlab o'rab, qovurib pishiriladigan non mahsuloti.",
@@ -1468,7 +1382,7 @@
     ]
   },
   {
-    "id": 51,
+    "id": 47,
     "name": "Ugra Sho'rva",
     "category": "Sho'rva",
     "description": "Uy qo'lda tayyorlangan ingichka noodles va go'sht bilan pishirilgan sho'rva. Bolalar uchun sevimli taom.",
@@ -1498,7 +1412,7 @@
     ]
   },
   {
-    "id": 52,
+    "id": 48,
     "name": "Qovoqli Chuchvara",
     "category": "Xamirli taom",
     "description": "Ichiga qovoq va piyoz solingan chuchvara. Sho'rvada yoki qovurilgan holda beriladi.",
@@ -1528,7 +1442,7 @@
     ]
   },
   {
-    "id": 53,
+    "id": 49,
     "name": "Qovurdoq",
     "category": "Asosiy taom",
     "description": "Go'sht va sabzavotlarni birga qovurib tayyorlanadigan oddiy va mazali taom. Tez tayyorlanadi.",
@@ -1558,7 +1472,7 @@
     ]
   },
   {
-    "id": 54,
+    "id": 50,
     "name": "Xonim",
     "category": "Xamirli taom",
     "description": "Mantidan farqli o'laroq, yupqa xamirni go'sht bilan rulo shaklida o'rab, bug'da pishiriladigan taom.",
@@ -1591,7 +1505,7 @@
     ]
   },
   {
-    "id": 55,
+    "id": 51,
     "name": "Qovoqli Xonim",
     "category": "Xamirli taom",
     "description": "Xonimning qovoqli varianti. Ichiga qovoq, piyoz va zira solinib, bug'da pishiriladi.",
@@ -1620,7 +1534,7 @@
     ]
   },
   {
-    "id": 56,
+    "id": 52,
     "name": "Ko'rak (Kovrak)",
     "category": "Sho'rva",
     "description": "Ko'k no'xot va sabzavotlardan tayyorlanadigan bahorgi sho'rva. Faqat bahor mavsumida tayyorlanadi.",
@@ -1650,7 +1564,7 @@
     ]
   },
   {
-    "id": 57,
+    "id": 53,
     "name": "Qovoq Halva",
     "category": "Shirinlik",
     "description": "Qovoqdan tayyorlanadigan milliy halva. Shakar va sariyog' bilan shirin qilinadi.",
@@ -1679,7 +1593,7 @@
     ]
   },
   {
-    "id": 58,
+    "id": 54,
     "name": "Qovoqli Lag'mon",
     "category": "Sho'rva",
     "description": "Tarvuzqovoq va sabzavotlar qo'shilgan lag'mon varianti. Yozda ko'p tayyorlanadi.",
@@ -1713,7 +1627,7 @@
     ]
   },
   {
-    "id": 59,
+    "id": 55,
     "name": "Iskandar Kabob",
     "category": "Kabob",
     "description": "Samarqandning maxsus kabob turi. Qo'y go'shtini yupqa kesib marinadlab, shishga tizib pishiriladi.",
@@ -1741,7 +1655,7 @@
     ]
   },
   {
-    "id": 60,
+    "id": 56,
     "name": "Qimiz",
     "category": "Ichimlik",
     "description": "Biya sutidan tayyorlanadigan fermentlangan milliy ichimlik. Qoraqalpog'iston va ko'chmanchi xalqlarda keng tarqalgan.",
@@ -1765,7 +1679,7 @@
     ]
   },
   {
-    "id": 61,
+    "id": 57,
     "name": "Shirchoy",
     "category": "Ichimlik",
     "description": "Sut va choy aralashtirib tayyorlanadigan issiq ichimlik. Qoraqalpog'istonda nonushta uchun asosiy ichimlik.",
@@ -1793,10 +1707,10 @@
     ]
   },
   {
-    "id": 62,
+    "id": 58,
     "name": "Gumma",
     "category": "Non-xamir mahsuloti",
-    "description": "Xorazmning maxsus taomi — ichiga go'sht va piyoz solingan katta dumaloq xamir. Tandirda pishiriladi.",
+    "description": "Xorazmning maxsus taomi — ichiga go'sht va piyoz solingan katta dumaloq xamir. Tandirda pishiriladi yoki qizigan yog'da pishiriladi.",
     "ingredients": [
       "Bug'doy uni",
       "Qo'y go'shti",
@@ -1823,7 +1737,7 @@
     ]
   },
   {
-    "id": 63,
+    "id": 59,
     "name": "Yupqa",
     "category": "Non-xamir mahsuloti",
     "description": "Juda yupqa qilib yoylangan, qizdirilgan sathda pishirilgan non. Ko'pincha go'sht yoki sariyog' bilan yeyiladi.",
@@ -1850,7 +1764,7 @@
     ]
   },
   {
-    "id": 64,
+    "id": 60,
     "name": "Kuzgi Dimlama",
     "category": "Asosiy taom",
     "description": "Kuzgi sabzavotlar (baklajan, pomidor, qalampir) bilan to'ldirilgan dimlama. Kuz mavsumida mashhur.",
@@ -1869,7 +1783,7 @@
     "preparation_time_min": 90,
     "calories_per_100g": 115,
     "tags": [
-      "dumlanadi",
+      "dimlanadi",
       "sabzavotli",
       "go'shtli",
       "kuz taomi"
