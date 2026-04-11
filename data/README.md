@@ -57,7 +57,6 @@ uzbek_taomlari/
 ```json
 {
   "id": 8,
-  "soato_id": 1718,
   "name_uz": "Samarqand viloyati",
   "name_oz": "Самарқанд вилояти",
   "name_ru": "Самаркандская область",
@@ -72,9 +71,10 @@ uzbek_taomlari/
 | Kategoriya |
 |------------|
 | Asosiy taom |
-| Kabob | 10+ |
+| Kabob |
 | Sho'rva |
-| Non / Xamirli taom |
+| Non | 
+| Xamirli taom |
 | Shirinlik |
 | Ichimlik |
 | Sut mahsuloti |
