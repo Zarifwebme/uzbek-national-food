@@ -5,18 +5,6 @@
 
 O'zbek milliy taomlari to'plami — strukturaviy JSON formatda.
 
----
-
-## 📁 Fayl tuzilmasi
-
-```
-uzbek_taomlari/
-├── taomlar.json   # Asosiy taomlar ma'lumotlar bazasi
-├── viloyatlar.json       # Viloyatlar ro'yxati
-└── README.md
-```
-
----
 
 ## 📦 Ma'lumot formati
 
