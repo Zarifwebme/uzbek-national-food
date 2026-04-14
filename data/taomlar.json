@@ -1558,5 +1558,35 @@
     "region_ids": [
       3
     ]
+  },
+  {
+    "id": 60,
+    "name": "Mastava",
+    "category": "Sho'rva",
+    "description": "Guruch va go'sht asosida tayyorlanadigan quyuq sho'rva. Uy taomlari orasida eng mashhurlaridan biri bo'lib, qishda isituvchi taom sifatida sevib yeyiladi.",
+    "ingredients": [
+      "Guruch",
+      "Mol go'shti yoki qo'y go'shti",
+      "Sabzi",
+      "Piyoz",
+      "Pomidor",
+      "Kartoshka",
+      "O'simlik yog'i",
+      "Zira",
+      "Tuz",
+      "Qora murch",
+      "Ko'k piyoz (bezash uchun)"
+    ],
+    "preparation_time_min": 75,
+    "calories_per_100g": 95,
+    "tags": [
+      "sho'rva",
+      "guruchli",
+      "go'shtli",
+      "uy taomi"
+    ],
+    "region_ids": [
+      0
+    ]
   }
 ]
